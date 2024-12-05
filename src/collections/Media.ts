@@ -10,7 +10,11 @@ export const Media: CollectionConfig = {
       name: 'alt',
       type: 'text',
       required: true,
+      // enable this to reproduce bug
+      // admin: {
+      //   disableListColumn: true,
+      //   disableListFilter: true,
+      // },
     },
-  ],
-  upload: true,
+  ]
 }
